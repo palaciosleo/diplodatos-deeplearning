@@ -1,0 +1,6 @@
+CNNClassifier(
+  (embeddings): Embedding(50002, 300, padding_idx=0)
+  (convs): ModuleList(
+    (0): Conv1d(300, 50, kernel_size=(2,), stride=(1,))
+    (1): Conv1d(300, 50, kernel_size=(3,), stride=(1,))
+    (2): Conv1d(300, 50, kernel_size=(4,), str

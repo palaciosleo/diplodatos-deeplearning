@@ -1,0 +1,15 @@
+artifact_uri: file:///home/leonardo/DiploDatos2020/deeplearning/AprendizajeProfundo/mlruns/9/c0a7463da7f645968e18d452e3ac1801/artifacts
+end_time: 1615924910171
+entry_point_name: ''
+experiment_id: '9'
+lifecycle_stage: active
+name: ''
+run_id: c0a7463da7f645968e18d452e3ac1801
+run_uuid: c0a7463da7f645968e18d452e3ac1801
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1615922761595
+status: 3
+tags: []
+user_id: leonardo

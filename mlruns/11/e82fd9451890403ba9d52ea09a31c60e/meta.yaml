@@ -1,0 +1,15 @@
+artifact_uri: file:///home/leonardo/DiploDatos2020/deeplearning/AprendizajeProfundo/mlruns/11/e82fd9451890403ba9d52ea09a31c60e/artifacts
+end_time: 1616209980904
+entry_point_name: ''
+experiment_id: '11'
+lifecycle_stage: active
+name: ''
+run_id: e82fd9451890403ba9d52ea09a31c60e
+run_uuid: e82fd9451890403ba9d52ea09a31c60e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1616208307491
+status: 3
+tags: []
+user_id: dyvanoff
