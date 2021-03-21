@@ -1,0 +1,15 @@
+artifact_uri: file:///home/victoria/Documentos/Diplomatura/AprendizajeProfundo_realese/AprendizajeProfundo/mlruns/1/5ff5b2e8cd2942d387818a532e96cae3/artifacts
+end_time: 1616157566513
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 5ff5b2e8cd2942d387818a532e96cae3
+run_uuid: 5ff5b2e8cd2942d387818a532e96cae3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1616155039069
+status: 3
+tags: []
+user_id: victoria
