@@ -32,6 +32,19 @@ Para entrenar cualquiera de los modelos del repositorio basta con estar dentro d
 
 ## Experimentos
 #### MLP `(diplodatos.spanish.MLP)`
+Sobre el modelo mlp.py se probaron distintos valores para algunos de los hiperparametros:
+* Dropout = [0.1, 0.3]. Los resultados mejoraron al tomar el 0.1.
+
+* Batch_size = [128, 64, 356]. En este caso, los resultados solo difieren en la décima o centésima, por lo que decidimos quedarnos
+con el valor 128.
+* random_buffer_size = [2048, 1024, 3072, 4096]. Los resultados tienen una leve mejora con el valor 4096, sin embargo lo considerable es la
+reducción en el tiempo de cómputo, por lo que nos quedamos con este valor (4096).
+* x = [torch.mean() , torch.sum()] En este caso probamos con torch.sum(), los resultados no mejoraron, por lo que mantuvimos
+el torch.mean()
+* freezen_embedings = [True, False]. Probamos con no freezar los embeddings. Los resultados mejoraron considerablemente, por consiguiente se
+decidió freezarlos. El tiempo de cómputo también aumenta considerablemente, sin embargo los resultados lo justifican.
+* Hidden_layers =[[256, 128] [512, 128] , [512, 256] ]. Se encontró que a medida que aumentabamos el tamaño de las capas, los resultados mejoraban. Se decidio
+tomar para el modelo final el tamaño [512, 256].
 
 #### CNN `(diplodatos.spanish.CNN)`
 
